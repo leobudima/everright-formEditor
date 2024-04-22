@@ -1,3 +1,19 @@
+# [1.3.0](https://github.com/Liberty-liu/Everright-formEditor/compare/v1.2.3...v1.3.0) (2024-04-22)
+
+
+### Bug Fixes
+
+* update package version to "1.3.0-beta.2" and fix CollapseLayout class issue ([cdc6702](https://github.com/Liberty-liu/Everright-formEditor/commit/cdc670215927a4b1b16cdf771cc3d3ad7344453c))
+
+
+### Features
+
+* refactor Checkbox, Radio, and Select components to include Other component ([d156c7a](https://github.com/Liberty-liu/Everright-formEditor/commit/d156c7a5268210b29fbfb18fdac80663bccddd1f))
+* set default value for TabsLayout and handle checkbox change in ConfigData3 ([319920b](https://github.com/Liberty-liu/Everright-formEditor/commit/319920b854e24a6fb6fbb76c1214980e18da7dda))
+* update package version to "1.3.0-beta.1" and enhance form editor layout ([2cdf6cb](https://github.com/Liberty-liu/Everright-formEditor/commit/2cdf6cb8e756e6135512ed29e986cb4fe8ad7b25))
+
+
+
 ## [1.2.3](https://github.com/Liberty-liu/Everright-formEditor/compare/v1.2.2...v1.2.3) (2023-11-30)
 
 
