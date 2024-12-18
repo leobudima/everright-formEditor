@@ -1,16 +1,10 @@
 export default {
   er: {
     panels: {
-      config: 'Form Attribute'
+      config: 'Form Attribute',
     },
     fields: {
-      input: [
-        'Input',
-        'Email',
-        'ID number',
-        'Cellphone',
-        'URL'
-      ],
+      input: ['Input', 'Email', 'ID number', 'Cellphone', 'URL'],
       textarea: 'Textarea',
       number: 'Number',
       radio: 'Radio',
@@ -21,7 +15,7 @@ export default {
       rate: 'Rate',
       switch: 'Switch',
       slider: 'Slider',
-      html: 'Html',
+      html: 'Rich Text',
       cascader: 'Cascader',
       uploadfile: 'File',
       signature: 'Signature',
@@ -34,13 +28,13 @@ export default {
       container: 'Container',
       field: 'Basic field',
       defaultField: 'Default field',
-      subform: 'Sub-form'
+      subform: 'Sub-form',
     },
     layout: {
       tabsCol: 'Tab panel',
       col: 'Col',
       collapseCol: 'Collapse panel',
-      td: 'td'
+      td: 'td',
     },
     config: {
       globalConfig: {
@@ -48,53 +42,39 @@ export default {
           label: 'Label Position',
           left: 'Left',
           right: 'Right',
-          top: 'Top'
+          top: 'Top',
         },
         sync: {
           label: 'Synchronize computer and mobile configurations',
-          warning: 'Data inconsistency, according to your choice of configuration'
+          warning:
+            'Data inconsistency, according to your choice of configuration',
         },
         componentSize: {
           label: 'Size of Fields',
           large: 'Large',
           default: 'Default',
-          small: 'Small'
-        }
+          small: 'Small',
+        },
       },
       tabsLayout: {
         style: {
           label: 'Type',
-          options: [
-            'Default',
-            'Tabs',
-            'Border-Card'
-          ]
+          options: ['Default', 'Tabs', 'Border-Card'],
         },
         tabPosition: {
           label: 'Tab position',
-          options: [
-            'Top',
-            'Bottom',
-            'Left',
-            'Right'
-          ]
-        }
+          options: ['Top', 'Bottom', 'Left', 'Right'],
+        },
       },
       borderComponent: {
         borderLine: 'Border line',
-        borderWidth: 'Border width'
+        borderWidth: 'Border width',
       },
       gridLayout: {
         justify: {
           label: 'Horizontal arrangement',
-          options: [
-            'Start',
-            'End',
-            'Center',
-            'Space around',
-            'Space between'
-          ]
-        }
+          options: ['Start', 'End', 'Center', 'Space around', 'Space between'],
+        },
       },
       dataComponent1: {
         defaultLabel: 'Default value',
@@ -102,18 +82,19 @@ export default {
         name: 'Name',
         operate: 'Operate',
         add: 'Add',
-        addOther: 'Add other'
+        addOther: 'Add other',
       },
       dataComponent2: {
         level: 'Level',
-        add: 'Add'
+        add: 'Add',
       },
       dataComponent3: {
         panel: 'Panel',
-        add: 'Add'
+        add: 'Add',
       },
       propsPanel: {
-        otherRequired: 'When selecting "Other", supplementary information is required',
+        otherRequired:
+          'When selecting "Other", supplementary information is required',
         title: 'Title',
         titleWidth: 'Title width',
         id: 'Id',
@@ -125,25 +106,18 @@ export default {
         dateType: 'Date type',
         layout: {
           label: 'Layout',
-          options: [
-            'vertical',
-            'horizontal'
-          ]
+          options: ['vertical', 'horizontal'],
         },
         contentPosition: {
           label: 'Text position',
-          options: [
-            'Left',
-            'Center',
-            'Right'
-          ]
+          options: ['Left', 'Center', 'Right'],
         },
         textareaHeight: 'Textarea height',
         uploadfile: {
           fileType: 'File type',
           accept: '',
           uploadLimit: 'Upload limit',
-          fileSize: 'File size'
+          fileSize: 'File size',
         },
         prepend: 'Prepend',
         append: 'Append',
@@ -151,11 +125,7 @@ export default {
         precision: 'Precision',
         region: {
           label: 'Select range',
-          options: [
-            'Prov',
-            'City/Prov',
-            'County/City/Prov'
-          ]
+          options: ['Prov', 'City/Prov', 'County/City/Prov'],
         },
         trim: 'Trim',
         wordLimit: 'Word limit',
@@ -167,18 +137,15 @@ export default {
         numberControls: {
           label: 'Control button',
           position: 'Button position',
-          options: [
-            'Horizontal',
-            'Vertical'
-          ]
+          options: ['Horizontal', 'Vertical'],
         },
         allowHalf: 'Allow half',
         alpha: 'Alpha',
         anyNode: 'Select any node',
         clearable: 'clearable',
         star: 'Star',
-        setDefaultContent: 'Set default content'
-      }
+        setDefaultContent: 'Set default content',
+      },
     },
     public: {
       confirm: 'Confirm',
@@ -205,7 +172,7 @@ export default {
       back: 'Back',
       save: 'Save',
       reset: 'Reset',
-      add: 'Add'
+      add: 'Add',
     },
     validateMsg: {
       required: 'Required',
@@ -218,7 +185,7 @@ export default {
       idUnique: 'ID must be unique',
       placeholder1: 'Please enter',
       placeholder2: 'Please select',
-      placeholder3: 'Please enter additional information'
+      placeholder3: 'Please enter additional information',
     },
     form: {
       selectDate: 'Select date',
@@ -228,7 +195,7 @@ export default {
       addSignature: 'Add signature',
       useSignature: 'Use signature',
       uploading: 'uploading...',
-      uploadFailed: 'Fail to upload'
+      uploadFailed: 'Fail to upload',
     },
     selection: {
       insertLeft: 'Insert column left',
@@ -244,7 +211,7 @@ export default {
       delRow: 'Delete row',
       delColumn: 'Delete column',
       splitColumn: 'Split column',
-      splitRow: 'Split row'
+      splitRow: 'Split row',
     },
     logic: {
       filter: {
@@ -271,19 +238,20 @@ export default {
         required: 'Required',
         not_required: 'Not required',
         readOnly: 'Readonly',
-        editable: 'Editable'
+        editable: 'Editable',
       },
       filterLabel: {
         if: 'When the following conditions are met',
-        then: 'Then execute'
+        then: 'Then execute',
       },
       tabs: {
         visible: 'Visible',
         required: 'Required',
-        readOnly: 'Readonly'
+        readOnly: 'Readonly',
       },
       button: 'Logic Control',
-      logicSuggests: 'It is detected that the attributes of the current field have changed, and in order to ensure the accuracy of logic control, the corresponding logic rules have been automatically deleted.'
-    }
-  }
-}
+      logicSuggests:
+        'It is detected that the attributes of the current field have changed, and in order to ensure the accuracy of logic control, the corresponding logic rules have been automatically deleted.',
+    },
+  },
+};
